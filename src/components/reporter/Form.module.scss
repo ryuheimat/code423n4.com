@@ -33,6 +33,14 @@
     cursor: pointer;
   }
 
+  &:disabled {
+    opacity: 0.3;
+  }
+
+  &:disabled:hover {
+    cursor: not-allowed;
+  }
+
   @media (prefers-color-scheme: dark) {
     background-color: black;
     color: #fff;
